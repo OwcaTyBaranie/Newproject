@@ -52,3 +52,23 @@ nav a:hover {
     margin-left: 15px;
     color: white;
 }
+.services {
+    text-align: center;
+    padding: 10px 0; 
+}
+.box-wrapper {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    
+}
