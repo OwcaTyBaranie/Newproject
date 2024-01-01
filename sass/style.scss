@@ -6,16 +6,18 @@ body {
 
 /*Splash*/
 .welcome {
-    position: relative;
     height: 100vh;
-    background-image: url(https://postimg.cc/F1rdk47c);
+    background: url(https://i.postimg.cc/vBVQ95kD/Newprojeckt-Backgroundimg.jpg);
     background-size: cover;
+    
+
     
 }
 
 .splash {
     text-align: center;
     padding: 10px 0;
+    color:white;
     
 }
 
@@ -36,7 +38,7 @@ nav {
 }
 
 nav a {
-    color: #0b0b0b;
+    color: white;
     text-decoration: none;
     margin-right: 15px;
 }
@@ -48,4 +50,5 @@ nav a:hover {
     display: flex;
     justify-content: flex-end;
     margin-left: 15px;
+    color: white;
 }
