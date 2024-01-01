@@ -124,35 +124,14 @@ i {
     margin: 0;
     color: #666;
   }
+  main {
+    flex: 1;
+    padding: 20px;
+  }
 
   footer {
     background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-
-  ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-  }
-
-  li {
-    margin: 0 10px;
-  }
-
-  a {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  .copyright {
-    font-size: 14px;
-    float: right;
+    padding: 10px;
   }
