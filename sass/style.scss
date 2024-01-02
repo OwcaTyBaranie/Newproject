@@ -1,6 +1,5 @@
 /*Global*/
 body {
-  
     font-family: 'Playfair Display', serif;
 }
 
@@ -9,9 +8,6 @@ body {
     height: 100vh;
     background: url(https://i.postimg.cc/vBVQ95kD/Newprojeckt-Backgroundimg.jpg);
     background-size: cover;
-    
-
-    
 }
 
 .splash {
@@ -124,14 +120,16 @@ i {
     margin: 0;
     color: #666;
   }
-  main {
-    flex: 1;
-    padding: 20px;
-  }
-
+ 
   footer {
     background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    bottom: 0;
+  }
+
+  .copyright {
+    text-align: left;
+    font-size: 14px;
   }
