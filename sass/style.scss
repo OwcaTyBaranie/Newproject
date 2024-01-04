@@ -104,8 +104,16 @@ i {
 
 .portfolio {
     background-color: #f7f7f7;
-
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh; // Ustawienie minimalnej wysokości, aby środek był środkiem widoku
+    }
   
+    h2, h3 {
+      text-align: center;
+    }
     .row {
       display: flex;
       margin: 0 auto;
@@ -141,16 +149,4 @@ i {
       }
     }
   }
-  /*Footer*/
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
  
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
