@@ -1,6 +1,6 @@
 /*Global*/
 body {
-   position: relative;
+   
    margin: 0;
    padding: 0;
     font-family: 'Playfair Display', serif;
@@ -102,6 +102,7 @@ i {
 
 .portfolio {
     background-color: #f7f7f7;
+
   
     .row {
       display: flex;
@@ -130,10 +131,6 @@ i {
         .text-container {
           text-align: center;
   
-          .product-title {
-            font-family: $navi-font;
-            margin-bottom: 0;
-          }
           .product-description {
             margin-top: 0;
             color: gray;
@@ -147,7 +144,7 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #BDE038;
+ 
   }
   
   .social-icons a {
@@ -155,10 +152,3 @@ i {
     margin: 0 10px;
   }
   
-  .social-icons i {
-    font-size: 2rem; // Możesz dostosować rozmiar ikon
-    color: #fff; // Kolor ikon
-    background-color: #BDE038; // Kolor tła ikon
-    padding: 10px; // Dostosuj padding do potrzeb
-    border-radius: 50%; // Zaokrąglenie kształtu dla ikon
-  }
