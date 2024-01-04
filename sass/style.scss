@@ -103,51 +103,77 @@ i {
 /*Portfolio*/
 
 .portfolio {
-    background-color: #f7f7f7;
-    .container {
+  background-color: #f7f7f7;
+
+  .container {
       display: flex;
+      flex-direction: column; 
       justify-content: center;
       align-items: center;
-      min-height: 100vh; // Ustawienie minimalnej wysokości, aby środek był środkiem widoku
-      flex-direction: column; 
-    }
-  
-    h2, h3 {
+      min-height: 20px;
+      margin-top: 10px; /* Dodany odstęp między sekcjami */
+  }
+
+  h2, h3 {
       text-align: center;
-    }
-    .row {
+      display: block;
+      margin-bottom: 10px;
+  }
+
+  .row {
       display: flex;
       margin: 0 auto;
-    }
-  
-    .portfolio-element {
+  }
+
+  .portfolio-element {
       display: flex;
       justify-content: center;
+
       .card {
-        width: 300px;
-        height: 400px;
-        background-color: #ffffff;
-        margin-bottom: 60px;
-        img {
           width: 300px;
-          height: 300px;
-          object-fit: cover;
-        }
-  
-        .element-container {
-          display: flex;
-          justify-content: center;
-        }
-  
-        .text-container {
-          text-align: center;
-  
-          .product-description {
-            margin-top: 0;
-            color: gray;
+          height: 400px;
+          background-color: #ffffff;
+          margin-bottom: 60px;
+
+          img {
+              width: 300px;
+              height: 300px;
+              object-fit: cover;
           }
-        }
+
+          .text-container {
+              text-align: center;
+
+              .product-title {
+                  margin-top: 10px;
+              }
+
+              .product-description {
+                  margin-top: 0;
+                  color: gray;
+              }
+          }
       }
-    }
   }
- 
+}
+/*Footer*/
+.footer {
+  background-color: #343a40; /* Kolor tła stopki */
+  color: #ffffff; /* Kolor tekstu stopki */
+  padding-top: 2rem; /* Górny odstęp dla stopki */
+  padding-bottom: 2rem; /* Dolny odstęp dla stopki */
+
+  .social-icons a i {
+      color: #9FC131; /* Kolor ikon */
+      font-size: 24px; /* Rozmiar ikon */
+      transition: color 0.3s ease; /* Dodanie płynności do zmiany koloru */
+  }
+
+  .social-icons a:hover i {
+      color: #005C53; /* Kolor ikon po najechaniu myszką */
+  }
+
+  .copyright {
+      margin-top: 1rem; /* Górny odstęp dla tekstu praw autorskich */
+  }
+}
