@@ -109,6 +109,7 @@ i {
       justify-content: center;
       align-items: center;
       min-height: 100vh; // Ustawienie minimalnej wysokości, aby środek był środkiem widoku
+      flex-direction: column; 
     }
   
     h2, h3 {
